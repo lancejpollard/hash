@@ -20,3 +20,7 @@ Notes relating to hashing functions.
 
 - https://github.com/BLAKE3-team/BLAKE3-specs
 - https://en.wikipedia.org/wiki/List_of_hash_functions
+- https://en.wikipedia.org/wiki/Hash_function_security_summary
+- https://en.wikipedia.org/wiki/Cipher_security_summary
+- https://noiseprotocol.org/noise.html
+- https://github.com/noiseprotocol/sho_spec/blob/master/sho.md
