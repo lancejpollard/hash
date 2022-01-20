@@ -54,3 +54,18 @@ resistant.
 - **Sponge functions** use a single permutation instead of a compression function and a block cipher.
 - Instead of using a block cipher to mix message bits with the internal state, sponge functions just do an XOR operation.
 - The most famous sponge function is Keccak, also known as SHA-3.
+
+## Block Cyphers
+
+- There are hundreds of block ciphers but only a handful of techniques to
+construct one.
+- A block cipher used in practice isn’t a gigantic algorithm but a repetition of rounds, a short sequence of operations that is weak on its own but strong in number.
+- There are two main techniques to construct a round:
+  1. **Substitution–permutation networks** (as in AES) ([wiki](https://en.wikipedia.org/wiki/Substitution%E2%80%93permutation_network))
+  2. **Feistel schemes** (as in DES) ([wiki](https://en.wikipedia.org/wiki/Feistel_cipher))
+- Computing a block cipher boils down to computing a sequence of _rounds_.
+- The round functions are identical functions, but parameterized by a round _key_.
+- Round keys should always be different from each other in every round.
+- **Confusion**: input (plaintext and encryption key) undergoes complex transformations.
+- **Diffusion**: transformations depend equally on all bits of the input.
+- In the design of a block cipher, confusion and diffusion take the form of substitution and permutation operations, which are combined within substitution–permutation networks (SPNs).
