@@ -9,6 +9,7 @@ Notes relating to hashing functions.
 - [md4](https://github.com/lancejpollard/hash/blob/make/paper/md4/original.pdf)
 - [md5](https://github.com/lancejpollard/hash/blob/make/paper/md5/original.pdf)
 - [md6](https://github.com/lancejpollard/hash/blob/make/paper/md6/original.pdf)
+- [ripemd160](https://github.com/lancejpollard/hash/blob/make/paper/ripemd160/original.pdf)
 - [sha1](https://github.com/lancejpollard/hash/blob/make/paper/sha1/original.pdf)
 - sha2
 - [sha3](https://github.com/lancejpollard/hash/blob/make/paper/sha3/original.pdf)
