@@ -9,5 +9,5 @@ Notes relating to hashing functions.
 - [md4](https://github.com/lancejpollard/security.js/blob/make/paper/md4/original.pdf)
 - [md5](https://github.com/lancejpollard/security.js/blob/make/paper/md5/original.pdf)
 - [sha1](https://github.com/lancejpollard/security.js/blob/make/paper/sha1/original.pdf)
-- [sha2]()
+- sha2
 - [sha3](https://github.com/lancejpollard/security.js/blob/make/paper/sha3/original.pdf)
